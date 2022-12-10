@@ -4,6 +4,7 @@
 Sobre el esquema SCOTT, cuyas tablas son:
 
 - DEPT
+
 | Columna | tipo de dato | Restricción |
 | --- | --- | --- |
 | DEPTNO | NUMBER(2) | NOT NULL |
@@ -11,6 +12,7 @@ Sobre el esquema SCOTT, cuyas tablas son:
 | LOC | VARCHAR2(13) | NOT NULL |
 
 - EMP
+
 | Columna | tipo de dato | Restricción |
 | --- | --- | --- |
 | EMPNO | NUMBER(4) | NOT NULL |
