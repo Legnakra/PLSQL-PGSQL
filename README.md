@@ -94,3 +94,7 @@ El procedimiento debe gestionar adecuadamente que: l a tabla Empleados está vac
 10. Realiza un procedimiento que reciba el nombre de una tabla y muestre los nombres de las restricciones que tiene, a qué columna afectan y en qué consisten exactamente. (DBA_TABLES, DBA_CONSTRAINTS, DBA_CONS_COLUMNS).
 
 11. Realiza al menos dos de los ejercicios anteriores en Postgres usando PL/pgSQL. (En mi caso, lo he realizado del procedimiento TresMásAntiguos y ListarComisiones, que son los ejercicios 3 y 9 respectivamente).# PLSQL-PGSQL
+
+## Autora :computer:
+* María Jesús Alloza Rodríguez
+* :school:I.E.S. Gonzalo Nazareno :round_pushpin:(Dos Hermanas, Sevilla).
