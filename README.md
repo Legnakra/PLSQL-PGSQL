@@ -64,37 +64,32 @@ Total Usuarios BD: nn.
 
 9. Realiza un procedimiento llamado ListarComisiones que nos muestre por pantalla un listado de las comisiones de los empleados agrupados según la localidad donde está ubicado su departamento con el siguiente formato: 
 Localidad NombreLocalidad
-Departamento: NombreDepartamento
-Empleado1 ……. Comisión 1
-Empleado2 ……. Comisión 2
-.
-.
-.
-Empleadon ……. Comision n
-Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
-Departamento: NombreDepartamento
-Empleado1 ……. Comisión 1
-Empleado2 ……. Comisión 2
-.
-.
-.
-Empleadon ……. Comision n
-Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
-.
-.
-Total Comisiones en la Localidad NombreLocalidad: SumaComisionesLocalidad
-Localidad NombreLocalidad
-.
-.
-Total Comisiones en la Empresa: TotalComisiones
 
-Tota: Los nombres de localidades, departamentos y empleados deben aparecer por orden alfabético.
+Departamento: NombreDepartamento
+
+Empleado1 ……. Comisión 1
+
+Empleado2 ……. Comisión 2
+
+Empleadon ……. Comision n
+
+Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
+
+Departamento: NombreDepartamento
+
+Empleado1 ……. Comisión 1
+
+Empleado2 ……. Comisión 2
+
+Empleadon ……. Comision n
+
+Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
+
+Nota: Los nombres de localidades, departamentos y empleados deben aparecer por orden alfabético.
 
 Si alguno de los departamentos no tiene ningún empleado con comisiones, aparecerá un mensaje informando de ello en lugar de la lista de empleados.
 
-El procedimiento debe gestionar adecuadamente las siguientes excepciones:
-    a) La tabla Empleados está vacía.
-    b) Alguna comisión es mayor que 10000.
+El procedimiento debe gestionar adecuadamente que: l a tabla Empleados está vacía y que alguna comisión sea mayor que 10000.
 
 10. Realiza un procedimiento que reciba el nombre de una tabla y muestre los nombres de las restricciones que tiene, a qué columna afectan y en qué consisten exactamente. (DBA_TABLES, DBA_CONSTRAINTS, DBA_CONS_COLUMNS).
 
