@@ -42,17 +42,17 @@ Y haciendo uso de los permisos del usuario **sysdba** en oracle, vamos a realiza
 
 Tablespace xxxx:
 
-	Usr1
-	Usr2
-	...
+Usr1
+Usr2
+...
 
 Total Usuarios Tablespace xxxx: n1
 
 Tablespace yyyy:
 
-	Usr1
-	Usr2
-	...
+Usr1
+Usr2
+...
 
 Total Usuarios Tablespace yyyy: n2
 ....
@@ -64,31 +64,31 @@ Total Usuarios BD: nn.
 
 9. Realiza un procedimiento llamado ListarComisiones que nos muestre por pantalla un listado de las comisiones de los empleados agrupados según la localidad donde está ubicado su departamento con el siguiente formato: 
 Localidad NombreLocalidad
-    Departamento: NombreDepartamento
-        Empleado1 ……. Comisión 1
-        Empleado2 ……. Comisión 2
-        .
-        .
-        .
-        Empleadon ……. Comision n
-    Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
-    Departamento: NombreDepartamento
-        Empleado1 ……. Comisión 1
-        Empleado2 ……. Comisión 2
-        .
-        .
-        .
-        Empleadon ……. Comision n
-    Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
-    .
-    .
+Departamento: NombreDepartamento
+Empleado1 ……. Comisión 1
+Empleado2 ……. Comisión 2
+.
+.
+.
+Empleadon ……. Comision n
+Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
+Departamento: NombreDepartamento
+Empleado1 ……. Comisión 1
+Empleado2 ……. Comisión 2
+.
+.
+.
+Empleadon ……. Comision n
+Total Comisiones en el Departamento NombreDepartamento: SumaComisiones
+.
+.
 Total Comisiones en la Localidad NombreLocalidad: SumaComisionesLocalidad
 Localidad NombreLocalidad
 .
 .
 Total Comisiones en la Empresa: TotalComisiones
-    
-Nota: Los nombres de localidades, departamentos y empleados deben aparecer por orden alfabético.
+
+Tota: Los nombres de localidades, departamentos y empleados deben aparecer por orden alfabético.
 
 Si alguno de los departamentos no tiene ningún empleado con comisiones, aparecerá un mensaje informando de ello en lugar de la lista de empleados.
 
